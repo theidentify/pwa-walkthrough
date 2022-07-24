@@ -8,5 +8,5 @@ function randomValueFromArray(array) {
 
 setInterval(function() {
   let randomChoice = randomValueFromArray(images);
-  imgElement.src = 'images/' + randomChoice + '.jpg';
+  imgElement.src = 'images/' + randomChoice + '.webp';
 }, 2000)
